@@ -1,0 +1,110 @@
+.feed-container {
+  flex: 4;
+  height: 100vh;
+}
+.shareInputContainer {
+  border-radius: 5px;
+  margin-top: 30px;
+  margin: 10px;
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.64);
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.64);
+  padding: 20px;
+}
+.shareInput {
+  display: flex;
+  margin: 10px;
+}
+.shareImg {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+
+  margin-right: 10px;
+}
+.inputShare {
+  border: none;
+  width: 60%;
+}
+.emojiContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  font-size: 10px;
+  padding: 0px;
+  flex-direction: row;
+}
+.list {
+  /* display: flex; */
+  font-size: 10px;
+  align-items: center;
+  margin-right: 5px;
+}
+.ulContainer {
+  padding: 0px;
+}
+.shareButton {
+  background-color: green;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.postContainer {
+  margin: 20px 10px;
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.64);
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.64);
+  padding: 20px;
+}
+.topBarPost {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.postDetails {
+  display: flex;
+  align-items: center;
+}
+.imgPost {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.profileName {
+  font-weight: 500;
+  margin: 0px 5px;
+}
+.timestamp {
+  font-size: 8px;
+}
+.dots {
+  line-height: 6px;
+}
+.postImageContainer {
+  width: 100%;
+}
+.postImage {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+.postDescription {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.postComments {
+  margin-right: 0px;
+  font-size: 12px;
+  align-items: center;
+}
+.postComments:last-child {
+  margin-left: 10px;
+}
